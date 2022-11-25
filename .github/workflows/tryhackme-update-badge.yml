@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: iankyslytsya/tryhackme-badge-workflow@main
+      - uses: iankyslytsya-logsta/tryhackme-badge-workflow@main
         with:
           username: "iankyslytsya"
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
