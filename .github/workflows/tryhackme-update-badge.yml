@@ -12,7 +12,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: iankyslytsya/tryhackme-badge-workflow@main
         with:
-          # Replace with your tryhackme username
           username: "iankyslytsya"
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
